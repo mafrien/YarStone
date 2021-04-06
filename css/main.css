@@ -367,6 +367,16 @@ table {
   font-size: 40px;
   color: white;
 }
+@media (max-width: 600px) {
+  .slide-content > h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .slide-content > h1 {
+    font-size: 20px;
+  }
+}
 .slide-content > p {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -1197,6 +1207,10 @@ ul.hamburger li:nth-child(3) {
   width:100%;
   border-bottom: rgb(141, 126, 126);
   border: 1;
+}
+
+.advantages-table td {
+  padding-bottom: 30px;
 }
 
 .contacts{
