@@ -367,6 +367,12 @@ table {
   font-size: 40px;
   color: white;
 }
+@media (max-width: 600px){
+  .slide-content > h1 {
+    font-size: 25px;
+  
+  }
+}
 .slide-content > p {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -1199,6 +1205,10 @@ ul.hamburger li:nth-child(3) {
   border: 1;
 }
 
+.advantages-table td {
+  padding-bottom: 30px;
+}
+
 .contacts{
   color: #f5f5f5;
 }
@@ -1219,6 +1229,8 @@ ul.hamburger li:nth-child(3) {
   padding-top: 10px;
   padding-bottom: 40px;
   font-weight: bold;
+  text-align: center;
+  width: 314px;
 }
 
 .example-img {
@@ -1265,6 +1277,9 @@ ul.hamburger li:nth-child(3) {
     height: 200px;
     border: 5px inset #893074;
   }
+  .print-under-example {
+    width: 210px;
+  }
 }
 @media screen and (max-width: 800px) {
   .examples-table td {
@@ -1275,5 +1290,8 @@ ul.hamburger li:nth-child(3) {
     width: 150px;
     height: 150px;
     border: 4px inset #893074;
+  }
+  .print-under-example {
+    width: 158px;
   }
 }
