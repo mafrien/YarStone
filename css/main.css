@@ -92,15 +92,16 @@ table {
   z-index: 1;
 }
 .header-text {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
   text-decoration: none;
   color: white;
   transition: background-color 0.2s ease-out;
 }
-.header-phone {
+.header-phone > .header-text {
   padding-top: 9px;
   width: 200px;
+  font-size: 14px;
 }
 @media screen and (min-width: 1100px) {
   .header-phone {
