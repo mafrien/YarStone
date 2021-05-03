@@ -1320,3 +1320,11 @@ ul.hamburger li:nth-child(3) {
     width: 158px;
   }
 }
+.examples-slide {
+  padding: 50px;
+}
+@media screen and (max-width: 600px) {
+  .examples-slide {
+    padding: 0;
+  }
+}
