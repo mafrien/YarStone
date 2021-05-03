@@ -364,6 +364,7 @@ table {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 50px;
+  width: 60%;
   z-index: 3;
   text-align: center;
 }
@@ -373,13 +374,18 @@ table {
 }
 @media (max-width: 600px){
   .slide-content > h1 {
-    font-size: 25px;
-  
+    font-size: 20px;
+    
   }
 }
 .slide-content > p {
   color: rgba(255, 255, 255, 0.7);
 }
+@media (max-width: 600px){
+    .slide-content {
+      padding-bottom: 15px;
+  } 
+} 
 .slider-button {
   border: 2px solid #5472e3;
   padding: 10px;
@@ -1106,6 +1112,11 @@ ul.hamburger li:nth-child(3) {
     width: 100px !important;
   }
 }
+@media screen and (max-width: 600px) {
+  .slick-dots {
+    bottom: 15px;
+  }
+}
 .slick-dots button::before {
   content: none !important;
 }
@@ -1166,11 +1177,6 @@ ul.hamburger li:nth-child(3) {
 .p750 {
   max-width: 750px;
 }
-@media screen and (max-width: 600px) {
-  .training-slider {
-    height: 400px;
-  }
-}
 .training-slider > div > div > div > img {
   height: 100%;
   width: 100%;
@@ -1183,6 +1189,13 @@ ul.hamburger li:nth-child(3) {
   left: 50%;
   transform: translate(-50%, 0);
   text-shadow: 0 0 15px black;
+  width: 70%;
+}
+@media (max-width: 600px) {
+  .training-slider-header {
+    font-size: 30px;
+    bottom: 100px;
+  }
 }
 .slider-parent {
   position: relative;
