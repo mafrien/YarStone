@@ -887,6 +887,9 @@ ul.hamburger li:nth-child(3) {
   .training-info {
     flex-direction: column;
   }
+  .training-info > p {
+    width: 100%;
+  }
 }
 .flex {
   display: flex;
