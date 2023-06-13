@@ -1267,6 +1267,12 @@ ul.hamburger li:nth-child(3) {
   height: 300px;
 }
 
+.object-img {
+  border: 4px inset #893074;
+  width: 1000px;
+  height: 70%;
+}
+
 .examples-table {
   width: 90%;
   background-color: #343a40;
